@@ -1,0 +1,56 @@
+.margen {
+	margin: 50px;
+}
+
+#banner {
+	background-color: rgb(14, 1, 61);
+	padding: 20px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#banner a {
+	color: white;
+	padding-right: 50px;
+	text-decoration: none;
+}
+
+#item {
+	margin-left: 50px;
+	flex-grow: 10;
+}
+
+#social {
+	object-fit: cover;
+	height: 25px;
+	width: 50px;
+	border-radius: 5px;
+	justify-content: space-evenly;
+	padding:2px;
+}
+
+#central {
+	height: 500px;
+	width: 700px;
+}
+
+#horizontal {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#central {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#options {
+	display: flex;
+	flex-direction: row;
+}
