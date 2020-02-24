@@ -24,8 +24,8 @@
 
 #social {
 	object-fit: cover;
-	height: 25px;
-	width: 50px;
+	height: 30px;
+	width: 60px;
 	border-radius: 5px;
 	justify-content: space-evenly;
 	padding:2px;
@@ -51,6 +51,36 @@
 }
 
 #options {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#help {
+	color: gray;
+}
+
+#menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+#pair {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#basic-addon3 {
+	border-radius: 5px;
+}
+
+#url {
+	padding-top: 15px;
+}
+
+#carousel {
 	display: flex;
 	flex-direction: row;
 }

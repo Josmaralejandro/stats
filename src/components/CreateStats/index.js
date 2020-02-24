@@ -4,7 +4,7 @@ class CreateStats extends Component {
     render(){
         return(
             <div>
-                Comprar estadísticass
+                Crear estadísticas
             </div>
         )
     }
