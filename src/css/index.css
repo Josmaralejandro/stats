@@ -88,6 +88,17 @@
 #card {
 	display: flex;
 	flex-direction: row;
+	height: 70px;
+	width: 300px;
+	align-items: center;
+}
+
+#details {
+	align-items: center;
+}
+
+#cardDetail {
+	font-size: 10px;
 }
 
 #avatar {
@@ -97,4 +108,34 @@
 	object-fit: cover;
 	margin-right: 20px;
 	margin-left: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-image: none;
+  justify-content: space-between;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+  padding-left: 50px;
+  
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
+#carousel {
+	width: 80%;
+	margin: 0 auto;
 }

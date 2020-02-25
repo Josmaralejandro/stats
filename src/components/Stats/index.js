@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ImageStat from '../ImageStat';
+import ImageStat from './ImageStat';
 import Media from '../Media';
-import Menu from '../Menu';
+import Menu from './Menu';
 import ValStat from '../ValStat';
 
 
