@@ -3,6 +3,7 @@ import ImageStat from './ImageStat';
 import Media from '../Media';
 import Menu from './Menu';
 import ValStat from '../ValStat';
+import Recommendations from '../Recommendations';
 
 
 class Stats extends Component {
@@ -24,6 +25,11 @@ class Stats extends Component {
                     <Menu/>
                 </div>
                 <ValStat/>
+                <div>
+                    <h6> MÁS ESTADÍSTICAS SOBRE EL TEMA </h6>
+                    <a href=""><h5>--> Marketing</h5></a>
+                </div>
+                <Recommendations/>
             </div>
         )
     }
